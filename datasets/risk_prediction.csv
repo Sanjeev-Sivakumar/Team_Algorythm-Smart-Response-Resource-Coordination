@@ -1,0 +1,11 @@
+location,hour,day_of_week,weather,traffic_level,historical_incidents,risk_score
+OMR_Road,18,5,clear,high,15,0.85
+GST_Road,19,6,rain,high,22,0.92
+Tambaram,14,3,clear,medium,8,0.65
+Velachery,8,1,clear,high,12,0.78
+Porur,20,5,fog,medium,10,0.72
+Adyar,12,2,clear,low,5,0.45
+Guindy,17,4,rain,high,18,0.88
+Chrompet,7,1,clear,medium,7,0.58
+Pallavaram,21,6,clear,high,14,0.81
+Medavakkam,16,3,rain,medium,9,0.68
