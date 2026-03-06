@@ -1,8 +1,8 @@
-# 🚨 UrbanRescue AI - Smart Emergency Management System
+# UrbanRescue AI - Smart Emergency Management System
 
 **Intelligent Decision-Support Platform for Emergency Response & Resource Coordination**
 
-## 🎯 Core Solution: Smart Response & Resource Coordination
+## Core Solution: Smart Response & Resource Coordination
 
 UrbanRescue AI is a **decision-support system** that assists city administrators and response teams in:
 - **Intelligent Incident Prioritization** using ML-trained models
@@ -14,35 +14,35 @@ The system **supports informed decision-making** without full automation, keepin
 
 ---
 
-## 🤖 Machine Learning Implementation
+## Machine Learning Implementation
 
 ### Trained ML Models
 
-#### 1. **Smart Priority Model**
+#### 1. Smart Priority Model
 - **Training Data**: 55 historical incidents with real-world patterns
 - **Features**: Severity, location type, population density, time, traffic
 - **Algorithm**: Weighted scoring with learned coefficients
 - **Output**: Priority score (0-100) + Recommended actions
 - **Accuracy**: Trained on incident_training.csv
 
-#### 2. **Smart Resource Coordinator**
+#### 2. Smart Resource Coordinator
 - **Training Data**: 50 resource coordination scenarios
 - **Features**: Distance, availability, equipment match, traffic, success rate
 - **Algorithm**: Multi-factor coordination scoring
 - **Output**: Ranked resources + ETA + Coordination plan
 - **Accuracy**: Trained on resource_coordination.csv
 
-#### 3. **Risk Predictor**
+#### 3. Risk Predictor
 - **Features**: Historical incidents, weather, traffic, time patterns
 - **Output**: Risk score (0-100) + Safety ratings
 
-#### 4. **NLP Analyzer**
+#### 4. NLP Analyzer
 - **Purpose**: Text classification and urgency detection
 - **Features**: Keyword analysis, sentiment scoring
 
 ---
 
-## 📊 Datasets (50+ Records)
+## Datasets (50+ Records)
 
 ### 1. incident_training.csv (55 records)
 ```
@@ -59,23 +59,23 @@ Fields: resource_id, resource_type, distance_km, availability_score,
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 🎯 Smart Response Features
+### Smart Response Features
 1. **AI Priority Engine** - ML-based incident scoring (0-100)
 2. **Intelligent Resource Allocation** - Coordination score with ETA
 3. **Recommended Actions** - Context-aware response suggestions
 4. **Multi-Unit Coordination** - Backup resource planning
 5. **Response Strategy** - Priority-based dispatch plans
 
-### 🚀 Resource Coordination Features
+### Resource Coordination Features
 1. **Distance Calculation** - Haversine formula for accuracy
 2. **Equipment Matching** - Type-specific resource scoring
 3. **Availability Tracking** - Real-time status monitoring
 4. **Traffic Consideration** - Route optimization factors
 5. **Coordination Plans** - Complete response strategies
 
-### 📈 Decision Support Features
+### Decision Support Features
 1. **Real-time Dashboard** - Live incident monitoring
 2. **Predictive Analytics** - Risk zone identification
 3. **Safety Scoring** - Area-wise safety ratings
@@ -84,7 +84,7 @@ Fields: resource_id, resource_type, distance_km, availability_score,
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -110,7 +110,7 @@ Fields: resource_id, resource_type, distance_km, availability_score,
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 ```bash
@@ -143,7 +143,7 @@ Open frontend/index.html in browser
 
 ---
 
-## 🔐 Default Credentials
+## Default Credentials
 
 | Role | Username | Password | Access |
 |------|----------|----------|--------|
@@ -153,7 +153,7 @@ Open frontend/index.html in browser
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 urbanrescue-ai/
@@ -178,7 +178,7 @@ urbanrescue-ai/
 
 ---
 
-## 🎯 ML Model Details
+## ML Model Details
 
 ### Priority Model Training
 ```javascript
@@ -217,7 +217,7 @@ Scoring Factors:
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 ### Smart Response & Coordination
 ```
@@ -255,15 +255,17 @@ POST /api/auth/login             # User login
 
 ---
 
-## 🎨 UI Features
+## UI Features
 
 ### Modern Design
-- ✅ Gradient color schemes
-- ✅ Responsive layout
-- ✅ Interactive maps (Leaflet.js)
-- ✅ Real-time updates
-- ✅ Role-based views
-- ✅ Smooth animations
+- Gradient color schemes
+- Responsive layout
+- Interactive maps (Leaflet.js)
+- Real-time updates
+- Role-based views
+- Smooth animations
+- My Location feature (GPS integration)
+- Real-time ML predictions
 
 ### Dashboard Components
 - **Stats Cards** - Total incidents, critical count, resources
@@ -274,7 +276,7 @@ POST /api/auth/login             # User login
 
 ---
 
-## 🔬 Testing the System
+## Testing the System
 
 ### Test Scenario 1: Create High-Priority Incident
 ```
@@ -284,7 +286,7 @@ POST /api/auth/login             # User login
    - Type: Fire
    - Severity: 9
    - Location: Market Area
-   - Coordinates: 13.0569, 80.2425
+   - Click "Use My Location" for GPS coordinates
 4. System calculates priority: ~95/100
 5. Recommended actions displayed
 6. Email alerts sent automatically
@@ -317,7 +319,7 @@ POST /api/auth/login             # User login
 
 ---
 
-## 📊 ML Model Performance
+## ML Model Performance
 
 ### Priority Model
 - **Training Samples**: 55
@@ -335,18 +337,18 @@ POST /api/auth/login             # User login
 
 ---
 
-## 🔒 Security Features
+## Security Features
 
-- ✅ JWT authentication
-- ✅ Bcrypt password hashing
-- ✅ Role-based authorization
-- ✅ SQL injection prevention
-- ✅ CORS enabled
-- ✅ Token expiration (24h)
+- JWT authentication
+- Bcrypt password hashing
+- Role-based authorization
+- SQL injection prevention
+- CORS enabled
+- Token expiration (24h)
 
 ---
 
-## 📧 Email Notifications
+## Email Notifications
 
 - **Critical Incidents** (Priority > 70): Auto-alert to all officers
 - **New User Registration**: Welcome email
@@ -354,7 +356,7 @@ POST /api/auth/login             # User login
 
 ---
 
-## 🎯 Decision Support Capabilities
+## Decision Support Capabilities
 
 ### For Administrators
 1. **Incident Prioritization** - ML-ranked emergency list
@@ -378,7 +380,7 @@ POST /api/auth/login             # User login
 
 ---
 
-## 🚀 Advanced Features
+## Advanced Features
 
 ### 1. Smart Coordination Plan
 ```json
@@ -412,7 +414,7 @@ POST /api/auth/login             # User login
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 **Database Error:**
 ```bash
@@ -436,7 +438,7 @@ npm start
 
 ---
 
-## 📈 Performance Metrics
+## Performance Metrics
 
 - **API Response Time**: <100ms
 - **ML Prediction Time**: <50ms
@@ -446,7 +448,7 @@ npm start
 
 ---
 
-## 🎓 Technologies Used
+## Technologies Used
 
 ### Backend
 - Node.js + Express
@@ -469,7 +471,7 @@ npm start
 
 ---
 
-## 📝 Environment Variables
+## Environment Variables
 
 ```env
 DB_USER=postgres
@@ -486,17 +488,19 @@ GEMINI_API_KEY=AIzaSyB4r7-GFQAVLvXHmEztyG0SczFTvpnIibU
 
 ---
 
-## 🏆 Key Differentiators
+## Key Differentiators
 
 1. **ML-Trained Models** - Real data, not hardcoded rules
 2. **Smart Coordination** - AI-powered resource allocation
 3. **Decision Support** - Recommendations, not automation
 4. **50+ Training Samples** - Robust ML foundation
 5. **Complete Solution** - End-to-end implementation
+6. **GPS Integration** - My Location feature for easy reporting
+7. **Real-time ML Predictions** - Instant priority scoring
 
 ---
 
-## 📞 Support
+## Support
 
 For issues:
 1. Check database is setup: `node setup-db.js`
@@ -506,12 +510,12 @@ For issues:
 
 ---
 
-## 📄 License
+## License
 
 MIT License - Educational/Hackathon Project
 
 ---
 
-**UrbanRescue AI - Making Cities Safer with Intelligence** 🚨
+**UrbanRescue AI - Making Cities Safer with Intelligence**
 
 **Built with ML-trained models, 50+ data samples, and smart coordination algorithms**
